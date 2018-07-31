@@ -52,10 +52,10 @@ localStorage.debug = 'Play:*'
 
 ## 网络连接结构
 
-![connections.png](https://github.com/jysperm/play-cards/blob/realtime/docs/connections.png?raw=true)
+![connections.png](https://github.com/leancloud/play-cards/blob/master/docs/connections.png?raw=true)
 
-- 客户端（Browser Client）和服务器（Play Server Contianer）都通过 WebSocket 连接到 Play Server
-- 服务器负责创建房间，并在每个房间设置一个 masterClient 参与游戏
+- 客户端（Browser Client）和服务器（MasterClient）都通过 WebSocket 连接到 Play Server
+- 服务器负责创建房间，并在每个房间设置一个 MasterClient 参与游戏
 - 客户端通过 HTTP 调用服务器来匹配并加入房间
 
 
