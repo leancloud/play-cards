@@ -35,6 +35,21 @@ lean up
 
 然后可以在浏览器中开三个窗口来分别模拟三个客户端。
 
+## 开启日志
+
+服务端使用以下代码启动：
+
+```
+DEBUG='Play:*' lean up
+```
+
+客户端在控制台中输入以下代码：
+
+```
+localStorage.debug = 'Play:*'
+```
+
+
 ## 网络连接结构
 
 ![connections.png](https://github.com/jysperm/play-cards/blob/realtime/docs/connections.png?raw=true)
