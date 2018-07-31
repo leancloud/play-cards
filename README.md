@@ -30,10 +30,17 @@ play-server         -- 服务器项目
 ```bash
 npm install
 npm run build
+```
+
+```bash
+lean login
+lean switch
 lean up
 ```
 
-然后可以在浏览器中开三个窗口来分别模拟三个客户端。
+接下来在浏览器中开三个窗口来分别模拟三个客户端。
+
+注：如果您不清楚 lean 命令，请参考[云引擎命令行工具](https://leancloud.cn/docs/leanengine_cli.html)
 
 ## 开启日志
 
