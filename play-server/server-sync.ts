@@ -19,7 +19,7 @@ export function statusSyncContorller(roomState: RoomState): Promise<Play> {
         // 玩家离线后，保留玩家数据的时间，单位：秒
         playerTtl: 300,
         // 设置 masterClient 不自动转移
-        flag: CreateRoomFlag.MasterAutoSwitch
+        flag: CreateRoomFlag.FixedMaster,
       };
 
       play.createRoom({
